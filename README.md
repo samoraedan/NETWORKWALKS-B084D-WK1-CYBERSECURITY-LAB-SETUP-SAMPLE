@@ -80,6 +80,8 @@ IP Address: 10.0.0.2  Subnet Mask: 255.255.255.0   Gateway: 10.0.0.1  DNS: 8.8.8
 
 
 
+
+
  PROBLEMS ENCOUNTERED DURING THE LAB 
 
  1. During the installation of the Kali Linux i was expecting  there to be a problem   of network connectivity but suprising'y it was working  perfectly afther the installation
@@ -89,12 +91,48 @@ IP Address: 10.0.0.2  Subnet Mask: 255.255.255.0   Gateway: 10.0.0.1  DNS: 8.8.8
 it will solve the problem 
     
 
-
  2. Dduring the install of the virtual-box hyper-V  the setup refused to load properly it was due to the fact that my computers Virtualization feature was turn off by default and this is how to fix it in Windows marchines
     1. switch on the windows marchine while pressing the  f10 button
-    2. the Bios set-up will load 
+    2. the Bios set-up will load
+    3. go to the configuration tab and scroll to virtualization  and click enable
+    4. exit then click save
+   
+       That should fix the problem
 
 
+
+       WHAT I LEARNT IN THIS LAB
+
+    Practicing this lab has helped me be more hands on as a cybersecurity proffisonal and it has also taught me the following
+
+    1.  how to install diffrenent software
+    2.  how to configure Network Recourses
+    3.  how to troubleshoot incase something goes wrong and how to fix it
+    4.  to remember to always document your work to help others or as a way to truck your work
+   
+
+
+   TOOLS AND RESOUCES USED IN THE LAB 
+
+  WinRAR or 7Zip ------  https://www.win-rar.com/download.html?&L=0
+  KALI LINUX OS -------  https://www.kali.org/get-kali/#kali-virtual-machines
+  VIRTUAL-BOX HYPER-V ----- https://www.virtualbox.org/wiki/Downloads
+    
+
+
+ AUTHOR   
+
+ LEINAKA SAMORA  
+
+ CYBERSECURITY AND COMPUTER NETWORKING PRROFESSIONAL 
+
+ LINKEDIN ------  https://www.linkedin.com/in/samora-lineaka-b26a30aa/
+
+
+
+PROJECT INFORMATION  
+
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
 
 
 

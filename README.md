@@ -62,6 +62,41 @@ FUTER VM RANGE ---- 10.0.0.3 - 10.0.0.99
     Create a edicated  Network   for the virtual-box
     i.e Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
 
+ 4. Import Kali Linux
+The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+
+The VM network adapter was configured as follows:
+
+Adapter 1
+Attached to: NAT Network    Network:     Nat Network   Adapter Type: Intel PRO/1000 MT Desktop  The VM was allocated:
+
+RAM: 2048 MB
+
+ 5. Configure the Kali Linux Network
+The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+Example configuration:
+
+IP Address: 10.0.0.2  Subnet Mask: 255.255.255.0   Gateway: 10.0.0.1  DNS: 8.8.8.8
+
+
+
+ PROBLEMS ENCOUNTERED DURING THE LAB 
+
+ 1. During the installation of the Kali Linux i was expecting  there to be a problem   of network connectivity but suprising'y it was working  perfectly afther the installation
+    but incase of the problem occuring please type this code in the terminal.
+
+    sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+it will solve the problem 
+    
+
+
+ 2. Dduring the install of the virtual-box hyper-V  the setup refused to load properly it was due to the fact that my computers Virtualization feature was turn off by default and this is how to fix it in Windows marchines
+    1. switch on the windows marchine while pressing the  f10 button
+    2. the Bios set-up will load 
+
+
+
+
 
 
     
